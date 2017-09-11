@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Mitchell</title>
+            <script type="text/javascript">
+                function show() {
+                    alert(1);
+                }
+            function showTittle() {
+                alert(document.title);
+            }
+            function aaa() {
+                location.href="https://www.baidu.com/";
+            }
+            function btnClick(){
+                location.href="mitchell://call";
+            }
+            function btnClickTwo(){
+                location.href="mitchell://callWithNumber_?10086";
+            }
+            function btnClickThree(){
+                location.href="mitchell://sendMessageWithNumber_WithContent_?10086&love";
+            }
+            </script>
+            </head>
+    <body>
+        <style type="text/css">
+            .test {
+                color: blue;
+            }
+        #op {
+            color: orange;
+        }
+        
+        .outer table,
+        .pp {
+            color: green;
+        }
+        
+        input[type=text] {
+            color: yellow;
+        }
+        </style>
+        <div class="outer">
+            <label for=“username”>姓名</label>
+            <button style="background:red; height:150px; weight:150px;" onclick="btnClickThree();">哥是按钮</button>
+        </div>
+    </body>
+</html>
+
+
+
